@@ -1,0 +1,51 @@
+{
+  "name": "Random Node",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "18e3a80f-3b49-4e8b-8efc-39dfac5f90ec",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {},
+      "type": "CUSTOM.randomNode",
+      "typeVersion": 1,
+      "position": [
+        208,
+        0
+      ],
+      "id": "cc060599-6c4a-4f5a-9463-1fc4d3d432b4",
+      "name": "Random"
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When clicking ‘Execute workflow’": {
+      "main": [
+        [
+          {
+            "node": "Random",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": false,
+  "settings": {
+    "executionOrder": "v1"
+  },
+  "versionId": "25508350-bd62-46ac-a407-61818ad6b9c9",
+  "meta": {
+    "instanceId": "124e08a0df2ddf2ce80fbd5e42f3ffedd874419fa91755ddbd81d8c9feff3681"
+  },
+  "id": "ndtnASOcaO3q0nZy",
+  "tags": []
+}
